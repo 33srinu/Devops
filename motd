@@ -1,0 +1,6 @@
+file { '/etc/motd' :
+ensure => 'file',
+content => 'welcome to server',
+}
+
+
